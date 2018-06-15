@@ -29,7 +29,7 @@ public class Main {
                         break;
                     case 4:
                         cardDeck.shuffle();
-                        System.out.println("5. Cartile au fost amesticate! ");
+                        System.out.println("5. Cartile au fost amestecate! ");
                         break;
                     case 5:
                         menu();
