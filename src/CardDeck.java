@@ -80,10 +80,10 @@ public class CardDeck {
         availableCards.add(new Card("10", "Frunza"));
         availableCards.add(new Card("10", "Inima"));
         availableCards.add(new Card("10", "Trefla"));
-        availableCards.add(new Card("AS", "Romb"));
-        availableCards.add(new Card("AS", "Frunza"));
-        availableCards.add(new Card("AS", "Inima"));
-        availableCards.add(new Card("AS", "Trefla"));
+        availableCards.add(new Card("A", "Romb"));
+        availableCards.add(new Card("A", "Frunza"));
+        availableCards.add(new Card("A", "Inima"));
+        availableCards.add(new Card("A", "Trefla"));
         availableCards.add(new Card("J", "Frunza"));
         availableCards.add(new Card("J", "Inima"));
         availableCards.add(new Card("J", "Trefla"));
