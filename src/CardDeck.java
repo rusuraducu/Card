@@ -17,7 +17,8 @@ public class CardDeck {
     public int usedCardCount() {
         return used.size();
     }
-
+    //Muta cartile extrase in pachetul de baza.
+    
     public void shuffle() {
         available.addAll(used);
         used.removeAll(used);
@@ -40,24 +41,6 @@ public class CardDeck {
         for (int n = 0; n < toDelete.size(); n++)
             available.remove(toDelete.get(n));
     }
-
-    //Aici am incercat sa fac sa returneze o lista cu cartile extrase.
-    //Totul e ok insa la fiecare recompilare a programului cartile extrase vor fi altele.
-//    public List<Card> dealCardsWithReturn(int no) {
-//        if (no > availableCardCount()) {
-//            no = availableCardCount();
-//        }
-//        System.out.println("Carti extrase: " + no);
-//        List<Card> toDelete = new ArrayList<>();
-//        for (int i = 0; i < no; i++) {
-//            System.out.println(available.get(i));
-//            used.add(available.get(i));
-//            toDelete.add(available.get(i));
-//        }
-//        for (int n = 0; n < toDelete.size(); n++)
-//            available.remove(toDelete.get(n));
-//        return (toDelete);
-//    }
 
     public static ArrayList<Card> availableCards() {
         ArrayList<Card> availableCards = new ArrayList<>();
