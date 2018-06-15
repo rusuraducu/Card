@@ -45,6 +45,7 @@ public class Main {
                 "2. Dimensiune pachete.\n" +
                 "3. Afiseaza carti extrase.\n" +
                 "4. Shuffle! Muta toate cartile in pachetul de baza. \n" +
-                "5. Afisare meniu.\n");
+                "5. Afisare meniu.\n"+
+                "6. Inchide program!");
     }
 }
